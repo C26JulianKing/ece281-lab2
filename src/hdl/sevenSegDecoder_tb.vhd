@@ -103,8 +103,8 @@ begin
             assert w_seg = "0110000" report "error on Mar" severity failure;
         w_sw <= x"4"; wait for 10 ns;
             assert w_seg = "0011001" report "error on Apr" severity failure;
-     --   w_sw <= x"5"; wait for 10 ns;
-     --       assert w_seg = "0010010" report "error on May" severity failure;
+        w_sw <= x"5"; wait for 10 ns;
+           assert w_seg = "0010010" report "error on May" severity failure;
         w_sw <= x"6"; wait for 10 ns;
             assert w_seg = "0000010" report "error on Jun" severity failure;
         w_sw <= x"7"; wait for 10 ns;

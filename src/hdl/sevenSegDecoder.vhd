@@ -53,7 +53,7 @@ begin
                        or (i_D=x"C")
                      or   (i_D=x"D"))
                         else '0';
-    c_Sb <= '1' when ((i_D=x"05")
+    c_Sb <= '1' when ((i_D=x"5")
                        or  (i_D=x"6")
                         or (i_D=x"B")
                       or   (i_D=x"C")
